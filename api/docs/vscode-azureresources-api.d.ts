@@ -43,6 +43,7 @@ export declare enum AzExtResourceType {
     ContainerApps = "ContainerApps",
     ContainerAppsEnvironment = "ContainerAppsEnvironment",
     FunctionApp = "FunctionApp",
+    MongoVCore = "MongoVCore",
     PostgresqlServersFlexible = "PostgresqlServersFlexible",
     PostgresqlServersStandard = "PostgresqlServersStandard",
     StaticWebApps = "StaticWebApps",
@@ -454,4 +455,5 @@ export declare interface Wrapper {
     unwrap<T>(): T;
 }
 
-export { }
+export { };
+
